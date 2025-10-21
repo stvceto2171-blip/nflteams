@@ -107,7 +107,7 @@ export default function Filters({ filters, setFilters }) {
             value={filters.city}
             onChange={(event) => handleSelectionChange(event, "city")}
             name="city"
-            icon="/location.svg"
+            icon="/rams.jpg"
           />
 
           <FilterSelect
@@ -116,7 +116,7 @@ export default function Filters({ filters, setFilters }) {
             value={filters.conference}
             onChange={(event) => handleSelectionChange(event, "conference")}
             name="conference"
-            icon="/price.svg"
+            icon="/sf49ers.jpg"
           />
 
           <FilterSelect
