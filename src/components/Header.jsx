@@ -77,7 +77,7 @@ export default function Header({ initialUser }) {
     <header>
       {/* Logo and link to home page */}
       <Link href="/" className="logo">
-        <img src="/friendly-eats.svg" alt="NFL Teams Hub" />
+        <img src="/nfl.png" alt="NFL Teams Hub" />
         NFL Teams Hub
       </Link>
 
