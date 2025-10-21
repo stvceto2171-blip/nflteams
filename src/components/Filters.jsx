@@ -66,7 +66,7 @@ export default function Filters({ filters, setFilters }) {
             value={filters.division}
             onChange={(event) => handleSelectionChange(event, "division")}
             name="division"
-            icon="/food.svg"
+            icon="/raiders.jpg"
           />
 
           <FilterSelect
