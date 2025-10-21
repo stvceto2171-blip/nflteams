@@ -36,7 +36,7 @@ export default function Filters({ filters, setFilters }) {
     <section className="filter">
       <details className="filter-menu">
         <summary>
-          <img src="/filter.svg" alt="filter" />
+          <img src="/chargers.png" alt="filter" />
           <div>
             <p>NFL Teams</p>
             <p>Sorted by {filters.sort || "Rating"}</p>
