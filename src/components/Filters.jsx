@@ -125,7 +125,7 @@ export default function Filters({ filters, setFilters }) {
             value={filters.sort}
             onChange={(event) => handleSelectionChange(event, "sort")}
             name="sort"
-            icon="/sortBy.svg"
+            icon="/seahawks.png"
           />
 
           <footer>
