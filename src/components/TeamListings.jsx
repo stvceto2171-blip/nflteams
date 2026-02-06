@@ -84,6 +84,19 @@ export default function TeamListings({
 
   return (
     <article>
+      <div style={{ textAlign: "center", marginBottom: "20px" }}>
+        <Link
+          href="/history-of-games"
+          style={{
+            color: "#1e3c72",
+            textDecoration: "underline",
+            fontWeight: "bold",
+            fontSize: "1.2rem",
+          }}
+        >
+          enter into the history of games
+        </Link>
+      </div>
       <Filters filters={filters} setFilters={setFilters} />
       <ul className="teams">
         {teams.map((team) => (
