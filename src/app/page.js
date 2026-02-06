@@ -1,6 +1,7 @@
 // Import the TeamListings React component
 // This component is responsible for displaying a list of teams
 import TeamListings from "@/src/components/TeamListings.jsx";
+import Link from "next/link";
 
 // Import a helper function to fetch team data from Firestore
 import { getTeams } from "@/src/lib/firebase/firestore.js";
@@ -43,6 +44,11 @@ export default async function Home(props) {
   // The initial list of teams and the search parameters are passed down as props
   return (
     <main className="main__home">
+      <div style={{ textAlign: "center", margin: "20px 0" }}>
+        <Link href="/history-of-games" style={{ color: "#1e3c72", textDecoration: "underline", fontWeight: "bold" }}>
+          enter into the history of games
+        </Link>
+      </div>
       <TeamListings
         initialTeams={teams}
         searchParams={searchParams}
