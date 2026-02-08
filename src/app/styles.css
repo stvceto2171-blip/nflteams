@@ -655,3 +655,62 @@ a {
     font-size: 0.8rem;
   }
 }
+
+.nba-page {
+  padding: 2rem;
+  background-color: #1d428a; /* NBA Blue */
+  min-height: 100vh;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.nba-header h1 {
+  font-size: 3rem;
+  margin-bottom: 2rem;
+  text-align: center;
+  color: #c8102e; /* NBA Red */
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+}
+
+.nba-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+  width: 100%;
+  max-width: 1000px;
+}
+
+.nba-team-card {
+  background-color: white;
+  padding: 2rem;
+  border-radius: 8px;
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  transition: transform 0.2s;
+}
+
+.nba-team-card:hover {
+  transform: translateY(-5px);
+}
+
+.nba-team-card h2 a {
+  color: #1d428a;
+  text-decoration: none;
+  font-size: 1.5rem;
+}
+
+.nba-footer {
+  margin-top: 3rem;
+}
+
+.nfl-link {
+  color: white;
+  text-decoration: underline;
+  font-size: 1.2rem;
+}
+
+.nfl-link:hover {
+  color: #c8102e;
+}
